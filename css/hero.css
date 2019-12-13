@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, san-serif;
+	font-size: 20px;
+	line-height: 30px;
+	background-image: url("https://www.itsnicethat.com/system/files/052017/5913673f7fa44c5a7d000e58/feature_hero/Bobs_street_scene.jpg?1512501804");
+}
+
+header{ 
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+h1,h2{
+	font-family: Patrick Hand SC, cursive;
+	text-align: center;
+}
+
+header h1{
+	font-size: 50px;
+}
+
+header img{
+	border-radius: 200px;
+	width: 400px
+}
+
+main{
+	background-color: rgba(255, 255, 255, 0.9);
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+p{
+	text-align: center;
+}
+
+h2{
+	font-size: 35px;
+}
+
+a{
+	color: #f0262a;
+}
+
+a:hover{
+	color: white;
+	background-color: #f172a9;
+}
+
+footer{
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #242424;
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 0; 
+}
