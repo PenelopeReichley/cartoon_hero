@@ -3,8 +3,17 @@ body{
 	font-family: Helvetica, Arial, san-serif;
 	font-size: 20px;
 	line-height: 30px;
-	background-image: url("https://www.itsnicethat.com/system/files/052017/5913673f7fa44c5a7d000e58/feature_hero/Bobs_street_scene.jpg?1512501804");
 }
+
+html { 
+  background: url("https://www.itsnicethat.com/system/files/052017/5913673f7fa44c5a7d000e58/feature_hero/Bobs_street_scene.jpg?1512501804") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* header styles */
 
 header{ 
 	text-align: center;
